@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script>
+  function sum(a, b) {
+    return a + b
+  }
+  function subtraction(a, b) {
+    return a - b
+  }
+  function multiplication(a, b) {
+    return a * b
+  }
+
+  function multiplication(a, b) {
+    return a * b
+  }
+
+  function division(a, b) {
+    return a / b
+  }
+
+  var n1 = Number(prompt("Enter the first number"))
+  var n2 = Number(prompt("Enter the second number"))
+  var operation = prompt("Enter the operation")
+
+
+  var result
+
+  if (operation == "+") {
+    result = sum(n1, n2)
+  } else if (operation == "-") {
+    result = subtraction(n1, n2)
+  } else if (operation == "*") {
+    result = multiplication(n1, n2)
+  } else if (operation == "/") {
+    result = division(n1, n2)
+  }
+
+  alert(result)
+</script>
+
+</html>

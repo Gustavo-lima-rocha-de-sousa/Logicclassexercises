@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script>
+  //Explorando o IF
+
+  var language = prompt("Enter the language code")
+  var variation
+    = prompt("Enter the language code variation")
+
+  // * Exploring more about (IF)*
+  // if (language == "pt") {
+  //   alert("Olá")
+  // } else if (language == "en") {
+  //   alert("Hi")
+  // } else if (language == "fr") {
+  //   alert("Salut")
+  // } else if (language == "es") {
+  //   alert("Hola")
+  // } else {
+  //   alert("Unrecognized language code")
+  // }
+
+
+  //pt-br = Olá (Brazilian Variation)
+  // pt-pt = Olá (Portuguese Variation)
+  //en-us = Hi (American Variation)
+  //en-gb = Hello (British Variation)
+
+  if ((language == "pt") && (variation
+    == "br") || (variation
+      == "pt")) {
+    alert("Olá")
+  } else if ((language == "en") && (variation
+    == "us")) {
+    alert("Hi")
+  } else if ((language == "en") && (variation
+    == "gb")) {
+    alert("Hello")
+  } else {
+    alert("Unrecognized language or variation")
+  }
+</script>
+
+</html>
